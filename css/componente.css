@@ -1,6 +1,23 @@
-.container{
+.container {
    width: 100%;
-   padding-left: 30px;
-   padding-right: 30px;
-   margin: 0 auto;
+   padding-left: 0;
+   padding-right: 0;
+   margin: 0 0;
+}
+
+
+.modelos--acessar {
+   color: black;
+   padding-right: 10px;
+   padding-left: 10px;
+   text-decoration: none;
+}
+
+.modelos--acessar:hover{
+   color: red;
+   
+   border: 1px solid aqua;
+   border-radius: 50%;
+
+   background-color: aqua;
 }
