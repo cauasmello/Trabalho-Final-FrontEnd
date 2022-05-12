@@ -1,7 +1,7 @@
 .layout-cabecalho{
-    padding-top: 0px;
     height: 80px;
-    background-color: gray;
+    border-bottom: 1px solid #ccc;
+    background-color: white;
 }
 
 .layout-cabecalho--home{
@@ -13,14 +13,14 @@
 .layout-principal{
     padding: 80px;
     padding-top: 150px;
-}
-.layout__logos{
-    padding-top: 30px;
-    font-family: Arial;
-    float: right;
+    background-color: green;
 }
 
-.layout__img{
-    padding-top: 0;
-}
 
+.layout-rodape{
+    padding: 40px 0;
+    background-color: #484848;
+
+    color: white;
+    text-align: center;
+}
