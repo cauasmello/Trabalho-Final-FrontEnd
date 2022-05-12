@@ -1,3 +1,8 @@
+body { 
+   height: 100%; 
+   position: absolute 
+}
+
 .container {
    width: 100%;
    padding-left: 0;
@@ -20,4 +25,21 @@
    border-radius: 50%;
 
    background-color: aqua;
+}
+.imagem {
+
+   background:url(‘img/todos-teslas.png’);
+}
+.texto > p{
+   display: inline;
+   font-size: 60px;
+   font-family: 'Times New Roman';
+   color:#fff;
+   text-align:right;
+   position: absolute;
+   top: 150px;
+   width: 800px;
+   line-height: 70px;
+   height: 100px;
+
 }

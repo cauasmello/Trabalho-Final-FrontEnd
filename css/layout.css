@@ -15,8 +15,10 @@
 .layout__logos{
     padding-top: 30px;
     font-family: Arial;
+    float: right;
 }
 
 .layout__img{
     padding-top: 0;
 }
+
