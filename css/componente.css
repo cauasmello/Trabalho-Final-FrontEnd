@@ -26,9 +26,37 @@ body {
 
    background-color: aqua;
 }
-.imagem {
-
-   background:url(‘img/todos-teslas.png’);
+.principal_titulo{
+   margin: 0;
+   color: black;
+   font-size: 2.25em;
+   line-height: 1;
+}
+.principal{
+   font-size: 1.5rem;
+   text-align: center;
+   font-family:Arial, Helvetica, sans-serif;
+}
+.principal_subtitulo{
+   margin: 60px 0;
+   color: black;
+   font-size: 1em;
+}
+.main-banner{
+   background: url('../img/tesla_s.jpg') no-repeat;
+   background-size: cover;
+   background-position: 100% 100%;
+   position: relative;
+   margin-top: 100px;
+}
+.conteudo-banner{
+   position: relative;
+   width: 80%;
+   margin-left: auto;
+   margin-right: auto;
+   padding-top: 10px;
+   text-align: center;
+   padding-bottom: 10px;
 }
 .texto > p{
    display: inline;

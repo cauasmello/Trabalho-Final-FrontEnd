@@ -10,8 +10,10 @@
     left: 0;
     right: 0;
 }
-
-
+.layout-principal{
+    padding: 80px;
+    padding-top: 150px;
+}
 .layout__logos{
     padding-top: 30px;
     font-family: Arial;
