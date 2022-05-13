@@ -8,7 +8,8 @@
             "type": "pwa-chrome",
             "request": "launch",
             "name": "Open index.html",
-            "file": "c:\\Trabalho-Final-FrontEnd\\index.html"
+            "url": "${file}",
+            "webRoot": "${workspaceFolder}"
         }
     ]
 }
