@@ -104,19 +104,36 @@
     width: 800px;
 }
 
+.descricao-img-esquerda{
+    margin-right: 400px;
+}
+
 .descricao-img{
-    margin-left: 300px;
+    margin-left: 400px;
 }
 
 .descricao-titulo{
     font-size: 2rem;
     text-align: left;
-    margin-top: 100px;
+    margin-top: 60px;
     margin-left: 20px;
+}
+
+.descricao-titulo-esquerda{
+    font-size: 2rem;
+    text-align: right;
+    margin-top: 60px;
+    margin-left: 90px;
 }
 
 .descricao-subtitulo{
     font-size: 1.5rem;
     text-align: left;
     margin-left: 40px;
+}
+
+.descricao-subtitulo-esquerda{
+    font-size: 1.5rem;
+    text-align: right;
+    margin-left: 80px;
 }
