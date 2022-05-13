@@ -5,30 +5,30 @@
     margin: 0 auto;
 }
 
-.main-imagem-models{
-     background: url('../img/tesla-models.jpg') no-repeat;
+.main-imagem-models {
+    background: url('../img/tesla-models.jpg') no-repeat;
 }
 
-.main-imagem-model3{
+.main-imagem-model3 {
     background: url('../img/tesla-model3.jpg') no-repeat;
 }
 
-.main-imagem-modelx{
+.main-imagem-modelx {
     background: url('../img/tesla-modelx.jpg') no-repeat;
 }
 
-.main-imagem-modely{
+.main-imagem-modely {
     background: url('../img/tesla-modely.jpg') no-repeat;
 }
 
 .main-banner {
-   
+
     background-size: cover;
     background-position: center;
 }
 
 .conteudo-banner {
-    
+
     width: 80%;
     margin-left: auto;
     margin-right: auto;
@@ -52,7 +52,7 @@
     /* 54*24 = 2.25em */
     font-size: 2.25em;
     line-height: 1;
-    
+
 }
 
 .principal__subtitulo {
@@ -62,18 +62,61 @@
     font-size: 1em;
 }
 
-.principal__sobre{
+.principal__sobre {
     margin: 650px 0;
     text-align: center;
 }
 
-.modelos-carrossel{
+.modelos-carrossel {
     margin-top: 80px;
 }
 
-.titulo-caption{
-    margin-bottom: 948px;
+.carousel .carousel-item {
+    height: 800px;
+}
+
+.carousel-item img {
+    position: absolute;
+    object-fit: cover;
+    top: -100px;
+    left: 0;
+    min-height: 600px;
+
+}
+
+.titulo-caption {
+    margin-bottom: 560px;
     font-size: 3rem;
 }
 
+.subtitulo-caption {
+    margin-bottom: 0px;
+    font-size: 2rem;
+}
 
+.subtitulo2-caption {
+    margin-bottom: 15px;
+    font-size: 1rem;
+}
+
+.descricao{
+    display: inline-block;
+    width: 800px;
+}
+
+.descricao-img{
+    margin-left: 300px;
+}
+
+.descricao-titulo{
+    font-size: 2rem;
+    text-align: left;
+    margin-top: 100px;
+    margin-left: 20px;
+}
+
+.descricao-subtitulo{
+    font-size: 1.5rem;
+    text-align: left;
+    margin-left: 40px;
+}

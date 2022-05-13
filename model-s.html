@@ -3,6 +3,7 @@
 
 <head>
     <meta charset="UTF-8">
+    <title>Tesla | Model S</title>
     <link rel="stylesheet" href="css/bootstrap.min.css">
     <link rel="stylesheet" href="css/bootstrap-grid.min.css">
     <link rel="stylesheet" href="js/bootstrap.js">
@@ -20,7 +21,7 @@
         </script>
 </head>
 
-<body>
+<body class="fundo">
     <header class="layout-cabecalho layout-cabecalho--home">
         <div class="container">
             <nav class="navegacao">
@@ -29,7 +30,7 @@
             </nav>
         </div>
     </header>
-        
+
     <section class="modelos-carrossel">
         <div id="carouselExampleControls" class="carousel slide carousel-dark" data-ride="carousel">
             <ol class="carousel-indicators">
@@ -37,24 +38,39 @@
                 <li data-target="#carouselExampleIndicators" data-slide-to="1"></li>
                 <li data-target="#carouselExampleIndicators" data-slide-to="2"></li>
                 <li data-target="#carouselExampleIndicators" data-slide-to="3"></li>
-              </ol>
-              
+            </ol>
+
             <div class="carousel-inner rounded-5 shadow-4-strong">
                 <div class="carousel-item active">
                     <img class="d-block w-100" src="img/models/model-s-main.jpg" alt="Primeiro Slide">
                     <div class="carousel-caption">
-                       
+
                         <h3 class="titulo-caption">Model S</h3>
-                        
+                        <div>
+
+                            <div class="layout-info">
+                                <p class="subtitulo-caption">0-100</p>
+                                <p class="subtitulo2-caption">km/h</p>
+                            </div>
+                            <div class="layout-info">
+                                <p class="subtitulo-caption">0-100</p>
+                                <p class="subtitulo2-caption">km/h</p>
+                            </div>
+                            <div class="layout-info">
+                                <p class="subtitulo-caption">0-100</p>
+                                <p class="subtitulo2-caption">km/h</p>
+                            </div>
+                            <div class="layout-info">
+                                <p class="subtitulo-caption">0-100</p>
+                                <p class="subtitulo2-caption">km/h</p>
+                            </div>
+
+                        </div>
                     </div>
-                    
+
                 </div>
                 <div class="carousel-item">
-                    <img class="d-block w-100" src="img/tesla-models.jpg" alt="Segundo Slide">
-                    <div class="carousel-caption">
-                        <h3>A</h3>
-                        <p>a</p>
-                    </div>
+                    <video class="d-block w-100" autoplay loop muted src="vid/models.mp4" type="video/mp4">
                 </div>
                 <div class="carousel-item">
                     <img class="d-block w-100" src="img/tesla-modelx.jpg" alt="Terceiro Slide">
@@ -80,6 +96,22 @@
                 <span class="sr-only">Próximo</span>
             </a>
         </div>
+
+        <article class="layout-legenda-principal">
+            <div class="row">
+                <div class="col-md-6">
+                    <img class="descricao-img" src="img/models/atributo1.jpg" width="500px" height="250px">
+                </div>
+                <div class="col-md-6">
+                    <div class="descricao">
+                        <h1 class="descricao-titulo">Stay Connected</h1>
+                        <p class="descricao-subtitulo">Instantly connect with multi-device Bluetooth, or fast charge
+                            devices with wireless and 36-watt USB-C charging.</p>
+                    </div>
+                </div>
+            </div>
+
+        </article>
     </section>
     <footer class="layout-rodape">
         <div class="container">
