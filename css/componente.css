@@ -70,9 +70,14 @@
 .modelos-carrossel {
     margin-top: 80px;
 }
-
+.carousel-item-next.carousel-item-left{
+    display: block !important;
+  }
 .carousel .carousel-item {
     height: 800px;
+    -webkit-transition: 0s !important;
+    -o-transition: 0s !important;
+    transition: 0s !important;
 }
 
 .carousel-item img {
@@ -81,6 +86,7 @@
     top: -100px;
     left: 0;
     min-height: 600px;
+    
 
 }
 

@@ -11,6 +11,12 @@
     right: 0;
     z-index: 9999;
 }
+.layout-login{
+    position:fixed;
+    top: 0;
+    left: 998;
+    right: 0;
+}
 .layout-principal{
     padding: 80px;
     padding-top: 150px;
