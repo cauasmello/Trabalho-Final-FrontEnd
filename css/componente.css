@@ -110,12 +110,30 @@
 }
 
 .descricao-img-esquerda{
-    margin-right: 400px;
+    margin-left: 400px;
+    object-fit: cover;
+    width:50%;
+}
+
+@media only screen and (max-width: 480px) {
+    .descricao-img-esquerda {
+      width: 100%;
+      margin-left: 400px;
+    }
 }
 
 .descricao-img{
     margin-left: 400px;
+    object-fit: cover;
+    width:50%;
 }
+
+@media only screen and (max-width: 480px) {
+    .descricao-img {
+      width: 100%;
+      margin-left: 400px;
+    }
+  }
 
 .descricao-titulo{
     font-size: 2rem;
