@@ -66,12 +66,45 @@
     margin: 650px 0;
     text-align: center;
 }
-.modelos-carrossel {
-    margin-top: 80px;
+
+/*ABOUT US*/
+
+.about-container {
+    border-radius: 25px;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+    margin: 8px;
+    background-color: white;
 }
-.carousel-item-next.carousel-item-left{
+
+.about-titulo{
+    margin-left: auto;
+    margin-right: auto;
+    font-size: larger;
+}
+.about-logo{
+    object-fit: cover;
+    width: 50%;
+}
+.about-img {
+    margin-left: auto;
+    margin-right: auto;
+    display: block;
+    object-fit: cover;
+    width: 50%;
+}
+
+/*ABOUT US*/
+
+
+
+.modelos-carrossel {
+    margin-top: 20px;
+}
+
+.carousel-item-next.carousel-item-left {
     display: block !important;
-  }
+}
+
 .carousel .carousel-item {
     height: 800px;
     -webkit-transition: 0s !important;
@@ -85,7 +118,7 @@
     top: -100px;
     left: 0;
     min-height: 600px;
-    
+
 
 }
 
@@ -104,59 +137,59 @@
     font-size: 1rem;
 }
 
-.descricao{
+.descricao {
     padding: 50px;
     display: inline-block;
     width: 800px;
 }
 
-.descricao-img-esquerda{
+.descricao-img-esquerda {
     margin-left: 400px;
     object-fit: cover;
-    width:50%;
+    width: 50%;
 }
 
 @media only screen and (max-width: 480px) {
     .descricao-img-esquerda {
-      width: 100%;
-      margin-left: 400px;
+        width: 100%;
+        margin-left: 400px;
     }
 }
 
-.descricao-img{
+.descricao-img {
     margin-left: 400px;
     object-fit: cover;
-    width:50%;
+    width: 50%;
 }
 
 @media only screen and (max-width: 480px) {
     .descricao-img {
-      width: 100%;
-      margin-left: 400px;
+        width: 100%;
+        margin-left: 400px;
     }
-  }
+}
 
-.descricao-titulo{
+.descricao-titulo {
     font-size: 2rem;
     text-align: left;
     margin-top: 60px;
     margin-left: 20px;
 }
 
-.descricao-titulo-esquerda{
+.descricao-titulo-esquerda {
     font-size: 2rem;
     text-align: right;
     margin-top: 60px;
     margin-left: 90px;
 }
 
-.descricao-subtitulo{
+.descricao-subtitulo {
     font-size: 1.5rem;
     text-align: left;
     margin-left: 40px;
 }
 
-.descricao-subtitulo-esquerda{
+.descricao-subtitulo-esquerda {
     font-size: 1.5rem;
     text-align: right;
     margin-left: 80px;
